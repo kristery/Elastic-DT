@@ -44,6 +44,10 @@ python data/download_d4rl_datasets.py
 python scripts/train_edt.py --env hopper --dataset medium-replay
 ```
 
+## Evaluation
+```bash
+python scripts/eval_edt.py --chk_pt_name saved_model_name_from_training.pt
+```
 
 ## Acknowledgement
 The implementation of EDT is based on [min-decision-transformer](https://github.com/nikhilbarhate99/min-decision-transformer)
