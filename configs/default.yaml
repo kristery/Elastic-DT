@@ -1,0 +1,3 @@
+env: ant
+batch_size: 256
+expert_weight: 15.0
